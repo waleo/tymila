@@ -118,11 +118,11 @@ $('.venobox').venobox();
 /* ===================================================================
     TWEETIE -  TWITTER FEED PLUGIN THAT WORKS WITH NEW Twitter 1.1 API
 ==================================================================== */
-$('.tweet').twittie({
+/*$('.tweet').twittie({
     apiPath : 'assets/js/plugins/twitter/api/tweet.php',
     count: 2,
     template: '{{tweet}} - <span class="date">{{date}}</span>'
-});
+});*/
 
 
 /* =================================
@@ -151,7 +151,7 @@ if (onMobile === true) {
 ============================================= */
 $("#subscribe").ajaxChimp({
     callback: mailchimpCallbackbetaform,
-    url: "http://themedept.us9.list-manage.com/subscribe/post?u=63465a86fdd5f3b9fa31f9278&amp;id=52df53337f" // Replace your mailchimp post url inside double quote "". 
+    url: "https://railsfever.us9.list-manage.com/subscribe/post?u=157a5dd874eaccb1ae0f2a451&amp;id=8fb037065d" // Replace your mailchimp post url inside double quote "". 
 });
 
 function mailchimpCallbackbetaform(resp) {
@@ -177,7 +177,7 @@ if(resp.result === 'success') {
 ============================================= */
 $("#earlyaccess-modal").ajaxChimp({
     callback: mailchimpCallbackmodal,
-    url: "http://themedept.us9.list-manage.com/subscribe/post?u=63465a86fdd5f3b9fa31f9278&amp;id=52df53337f" // Replace your mailchimp post url inside double quote "".  
+    url: "https://railsfever.us9.list-manage.com/subscribe/post?u=157a5dd874eaccb1ae0f2a451&amp;id=8fb037065d" // Replace your mailchimp post url inside double quote "".  
 });
 
 function mailchimpCallbackmodal(resp) {
