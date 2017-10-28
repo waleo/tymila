@@ -1077,7 +1077,7 @@ p {
 }
 
 .footer-nav{
-    margin-top: 100px;
+    /*margin-top: 100px; wale: get rid of excess height in the footer*/
     font-family: 'Raleway','Open Sans',Helvetica,Arial,sans-serif;
     font-style: normal;
     font-weight: 700;
