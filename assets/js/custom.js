@@ -21,7 +21,7 @@ $(window).load(function() {
 =================================== */
 function showEarlyAccessForm(){
     "use strict";
-    $('.modal-title').html('Get Early Access');
+    $('.modal-title').html('');
     $('.modal-subtitle').html('Enter your email and Join Beta.');
     
     $('.error').removeClass('alert alert-danger').html('');
